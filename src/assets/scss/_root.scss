@@ -1,0 +1,4 @@
+:root{
+  --variable-prefix: #{$variable-prefix};
+  --#{$variable-prefix}body-line-height: 1.5
+}

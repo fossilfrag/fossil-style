@@ -1,0 +1,21 @@
+.card {
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.25rem;
+}
+
+.card-title *:first-child {
+    margin-top: 0;
+}
+
+.card-body *:last-child {
+    margin-bottom: 0;
+}
+
+@each $breakpoint, $card-padding in $card-paddings {
+    @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+        .card {
+            padding: $card-padding;
+        }
+    }
+}

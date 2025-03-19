@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}

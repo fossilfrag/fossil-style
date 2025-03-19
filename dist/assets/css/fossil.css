@@ -1,0 +1,122 @@
+:root {
+  --variable-prefix: fossil-;
+  --fossil-body-line-height: 1.5
+; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: var(--fossil-body-line-height); }
+
+dl,
+ol,
+ul {
+  margin-top: 0; }
+
+blockquote {
+  margin: 0;
+  padding: 0 1rem;
+  border-left: 0.25rem solid #88888850; }
+
+.container,
+.container-fuild,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--fossil-gutter-x, 0.75rem);
+  padding-left: var(--fossil-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px; } }
+
+@media (min-width: 1400px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    max-width: 1320px; } }
+
+.card {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.25rem; }
+
+.card-title *:first-child {
+  margin-top: 0; }
+
+.card-body *:last-child {
+  margin-bottom: 0; }
+
+@media (min-width: 576px) {
+  .card {
+    padding: 1.25rem; } }
+
+@media (min-width: 768px) {
+  .card {
+    padding: 1.5rem; } }
+
+@media (min-width: 992px) {
+  .card {
+    padding: 2rem; } }
+
+@media (min-width: 1200px) {
+  .card {
+    padding: 3rem; } }
+
+@media (min-width: 1400px) {
+  .card {
+    padding: 4rem; } }
+
+.nav {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  padding-left: 0; }
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none; }
+
+.navbar {
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+  .navbar > .container,
+  .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between; }
+
+.rounded-circle {
+  border-radius: 50% !important; }
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
+
+/*# sourceMappingURL=fossil.css.map */
